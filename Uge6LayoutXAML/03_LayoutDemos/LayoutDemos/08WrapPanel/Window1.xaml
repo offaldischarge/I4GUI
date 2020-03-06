@@ -1,0 +1,24 @@
+﻿<Window x:Class="_08WrapPanel.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="WrapPanelWindow" Height="300" Width="300">
+    <WrapPanel Orientation="Horizontal" ItemWidth="40">
+    <!--<WrapPanel Orientation="Horizontal" ItemWidth="20">-->
+        <Button HorizontalAlignment="Left" Padding="5">A</Button>
+        <Button >Bbbbbbb</Button>
+        <Button >C</Button>
+        <Button Margin="4">Ddd</Button>
+        <Button >E</Button>
+        <Button >Fffffffffffffffffffffffffffff</Button>
+        <Button >G</Button>
+        <Button >H</Button>
+        <Button >I</Button>
+        <Button >J</Button>
+        <Button Width="30">K</Button>
+        <Button Width="30">L</Button>
+        <Button Width="30">M</Button>
+        <Button >N</Button>
+        <Button >O</Button>
+        <Button >P</Button>
+    </WrapPanel>
+</Window>

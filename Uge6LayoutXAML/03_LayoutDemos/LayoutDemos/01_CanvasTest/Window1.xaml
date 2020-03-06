@@ -1,0 +1,15 @@
+﻿<Window x:Class="CanvasTest.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Canvas" Height="244" Width="242"
+        FontSize="16">
+    <Canvas>
+        
+        <TextBlock Canvas.Left="10" Canvas.Top="20">Hello</TextBlock>
+        <TextBlock Canvas.Right="10" Canvas.Bottom="20">world!</TextBlock>
+        
+        <Button Canvas.Left="119" Canvas.Top="24" Name="button1" Width="89" Content="Button nu med mere tekst"></Button>
+        <Button Canvas.Left="44" Canvas.Top="69" Name="button2"  Content="Button2 is quite wide"></Button>
+        <Button Canvas.Left="78" Canvas.Top="119" Name="button3" Padding="10 2" >Button</Button>
+    </Canvas>
+</Window>

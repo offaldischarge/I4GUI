@@ -1,0 +1,36 @@
+﻿<Window x:Class="HullSpeed.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HullSpeed"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" FontSize="16">
+    <StackPanel Orientation="Horizontal">
+        <StackPanel Orientation="Horizontal">
+            
+        </StackPanel>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Name:"/>
+                <TextBox x:Name="ShipName" TextWrapping="Wrap" Text="" TextChanged="ShipName_TextChanged" MinWidth="150"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Length:"/>
+                <TextBox x:Name="ShipLength" TextWrapping="Wrap" Text="" TextChanged="ShipLength_TextChanged" MinWidth="40"/>
+                <Label Content="feet"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Calculate Hull Speed" Margin="5 5" HorizontalAlignment="Left" Click="Button_Click"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Hull speed:"/>
+                <Label x:Name="ResultLabel" Content=""/>
+                <Label Content="knots"/>
+            </StackPanel>
+        </StackPanel>
+        <Viewbox>
+            <Image Source="03-Sailboat.jpg" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+        </Viewbox>
+    </StackPanel>
+</Window>

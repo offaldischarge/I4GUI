@@ -1,0 +1,30 @@
+﻿<Window x:Class="Border.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow"  
+        WindowStyle="None" ResizeMode="NoResize"
+        Background="Transparent" AllowsTransparency="True"
+        SizeToContent="WidthAndHeight"
+        FontSize="18">
+
+    <Border Margin="5" Padding="5"
+            Background="LightYellow"
+            BorderBrush="SteelBlue" 
+            BorderThickness="5" 
+            CornerRadius="8"
+            VerticalAlignment="Top">
+        <StackPanel>
+            <Button Margin="3" Padding="5" Click="Button_Click">
+                <StackPanel Orientation="Horizontal" >
+                    <Button Margin="5">Hej</Button>
+                    <Button Margin="5" Content="med" Click="Button_Click_1"/>
+                    <Button Margin="5" Content="dig" />
+                </StackPanel>
+            </Button>
+            <Button Margin="3" Content="Two"/>
+            <Button Margin="3" Content="_Exit" 
+                    Name="btnExit"
+                    Click="btnExit_Click"/>
+        </StackPanel>
+    </Border>
+</Window>
