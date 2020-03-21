@@ -1,0 +1,27 @@
+﻿body {
+    background-color: #ffffcc;
+    font-family: Verdana, Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.header {
+    text-align: center;
+    background-color: #ccaa66;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+}
+
+.menuwrapper {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: #ccaa66;
+}
+
+.textaligner {
+    text-align: left;
+}
